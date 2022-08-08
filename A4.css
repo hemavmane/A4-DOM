@@ -1,0 +1,100 @@
+h1{
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
+
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: aqua;
+    border-bottom:5px solid black;
+    padding: 5px;
+   
+}
+
+
+.left{
+    height:200px ;
+    width: 500px;
+    background-color: green;
+    padding: 10px;
+}
+
+form{
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.newinput{
+    width: 350px;
+    height: 30px;
+    font-size: 25px;
+    border: none;
+
+}
+
+.button{
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius:10px ;
+    background-color: chartreuse;
+
+}
+
+.middel,.right{
+    height:auto ;
+    width: 500px;
+    background-color: green;
+    padding: 10px;
+}
+
+h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: aqua;
+    border-bottom:5px solid black;
+    padding: 5px; 
+}
+
+.task_input{
+    width: 350px;
+    height: 30px;
+    font-size: 25px;
+    border: none;
+    
+}
+
+.check{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius:10px ;
+    background-color: chartreuse;
+}
+
+.checkinput{
+    width: 25px;
+    height: 25px;
+    border: none;
+}
+
+.edit{
+    font-size: 30px;
+}
+
+.delete{
+    
+    font-size: 30px;
+}
+
+
+
+
